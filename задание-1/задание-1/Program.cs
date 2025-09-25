@@ -20,7 +20,16 @@ namespace задание_1
                 Console.Write($"Введите элемент [{i}]: ");
                 array[i] = Convert.ToInt32(Console.ReadLine());
             }
-
+            int maxElement = array[0];
+            int maxIndex = 0;
+            for (int i = 1; i < n; i++)
+            {
+                if (array[i] > maxElement)
+                {
+                    maxElement = array[i];
+                    maxIndex = i;
+                }
+            }
         }
     }
 }
