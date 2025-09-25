@@ -25,6 +25,12 @@ namespace задание_2
                 count[num]++; 
             }
 
+            int uniqueCount = 0;  
+            for (int i = 1; i <= 200; i++)  
+            {
+                if (count[i] == 1)
+                    uniqueCount++;   
+            }
 
         }
     }
