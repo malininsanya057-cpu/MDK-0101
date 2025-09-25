@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ЛР1
+namespace задание_1
 {
-    public class Program
+    internal class Program
     {
         static void Main()
         {
@@ -19,7 +19,8 @@ namespace ЛР1
             {
                 Console.Write($"Введите элемент [{i}]: ");
                 array[i] = Convert.ToInt32(Console.ReadLine());
-            }    
+            }
+
         }
     }
 }
