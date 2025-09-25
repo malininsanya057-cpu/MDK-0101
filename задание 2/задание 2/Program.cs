@@ -31,6 +31,19 @@ namespace задание_2
                 if (count[i] == 1)
                     uniqueCount++;   
             }
+            
+            int[] uniqueNumbers = new int[uniqueCount]; 
+            int index = 0; 
+
+           
+            for (int i = 1; i <= 200; i++)  
+            {
+                if (count[i] == 1)  
+                {
+                    uniqueNumbers[index] = i; 
+                    index++;  
+                }
+            }
 
         }
     }
