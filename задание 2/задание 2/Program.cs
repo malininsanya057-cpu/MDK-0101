@@ -45,6 +45,15 @@ namespace задание_2
                 }
             }
 
+            Console.Write("[");
+            for (int i = 0; i < uniqueNumbers.Length; i++)  
+            {
+                Console.Write(uniqueNumbers[i]);  
+                if (i < uniqueNumbers.Length - 1) 
+                    Console.Write(", ");  
+            }
+            Console.WriteLine("]");  
+
         }
     }
 }
