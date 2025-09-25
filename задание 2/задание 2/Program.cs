@@ -18,6 +18,12 @@ namespace задание_2
             {
                 numbers[i] = random.Next(1, 201);  
             }
+           
+            int[] count = new int[201];  
+            foreach (int num in numbers)  
+            {
+                count[num]++; 
+            }
 
 
         }
