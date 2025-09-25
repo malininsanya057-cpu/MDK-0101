@@ -30,6 +30,9 @@ namespace задание_1
                     maxIndex = i;
                 }
             }
+            Console.WriteLine($"Максимальный элемент: {maxElement}");
+            Console.WriteLine($"Индекс максимального элемента: {maxIndex}");
         }
+    
     }
 }
